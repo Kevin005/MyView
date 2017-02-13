@@ -1,0 +1,25 @@
+warning: LF will be replaced by CRLF in .idea/misc.xml.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml[m
+[1mindex 91627df..1f824e2 100644[m
+[1m--- a/app/src/main/AndroidManifest.xml[m
+[1m+++ b/app/src/main/AndroidManifest.xml[m
+[36m@@ -8,13 +8,14 @@[m
+         android:label="@string/app_name"[m
+         android:supportsRtl="true"[m
+         android:theme="@style/AppTheme">[m
+[31m-        <activity android:name=".activity.MainActivity">[m
+[32m+[m[32m        <activity android:name=".activity.Main2Activity">[m
+             <intent-filter>[m
+                 <action android:name="android.intent.action.MAIN" />[m
+ [m
+                 <category android:name="android.intent.category.LAUNCHER" />[m
+             </intent-filter>[m
+         </activity>[m
+[32m+[m[32m        <activity android:name=".activity.MainActivity"></activity>[m
+     </application>[m
+ [m
+ </manifest>[m
+\ No newline at end of file[m
+warning: LF will be replaced by CRLF in .idea/modules.xml.
+The file will have its original line endings in your working directory.
