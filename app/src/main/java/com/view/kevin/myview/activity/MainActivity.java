@@ -1,4 +1,4 @@
-package com.view.kevin.myview;
+package com.view.kevin.myview.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +13,8 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import com.view.kevin.myview.R;
 
 public class MainActivity extends AppCompatActivity {
 
