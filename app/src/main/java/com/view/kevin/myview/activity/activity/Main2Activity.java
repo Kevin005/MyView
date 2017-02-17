@@ -13,6 +13,9 @@ import android.widget.FrameLayout;
 
 import com.view.kevin.myview.R;
 
+/**
+ * this is add
+ */
 public class Main2Activity extends AppCompatActivity {
 
     private View menu;
