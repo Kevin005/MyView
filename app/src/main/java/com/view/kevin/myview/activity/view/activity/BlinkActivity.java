@@ -1,4 +1,4 @@
-package com.view.kevin.myview.activity;
+package com.view.kevin.myview.activity.view.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 
 import com.view.kevin.myview.R;
 
-public class MainActivity extends AppCompatActivity {
+public class BlinkActivity extends AppCompatActivity {
 
     private Button rotateButton = null;
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.view_activity_blink);
 
         rotateButton = (Button) findViewById(R.id.rotateButton);
 
