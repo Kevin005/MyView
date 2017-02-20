@@ -6,8 +6,8 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.widget.EditText;
 
-import com.xsfuture.xsfuture2.R;
-import com.xsfuture.xsfuture2.utils.DPIUtils;
+import com.view.kevin.myview.R;
+import com.view.kevin.myview.activity.util.DPIUtils;
 
 public class LineEditText extends EditText {
     private Paint mPaint;
@@ -21,7 +21,7 @@ public class LineEditText extends EditText {
         mPaint = new Paint();
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeWidth(DPIUtils.dip2px(context, 1));
-        mPaint.setColor(getResources().getColor(R.color.main_color));
+        mPaint.setColor(getResources().getColor(R.color.red));
     }
 
     @Override
