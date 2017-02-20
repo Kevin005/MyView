@@ -15,6 +15,26 @@ import android.view.animation.Interpolator;
 import android.view.animation.Transformation;
 import android.widget.Gallery;
 
+/**
+ * note:
+ * 1.build a activity
+ * 2.seting this code for the activity
+ allery = (GalleryCoverFlow) findViewById(R.id.gallery);
+ gallery.setUnselectedScale(0.75f);
+ gallery.setUnselectedAlpha(0.75f);
+ gallery.setSpacing(20);
+ gallery.setGravity(Gravity.CENTER_VERTICAL);
+ //设置图片适配器
+ gallery.setAdapter(new GalleryItemAdapter(this));
+ gallery.setSelection(2);
+ //设置监听器
+ gallery.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+ public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+ Toast.makeText(Main2Activity.this, "点击了第" + arg2 + "张图片", Toast.LENGTH_LONG).show();
+ }
+ });
+ */
 @SuppressLint("ClickableViewAccessibility")
 @SuppressWarnings("deprecation")
 public class GalleryCoverFlow extends Gallery {
