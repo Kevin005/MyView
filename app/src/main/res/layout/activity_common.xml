@@ -12,14 +12,14 @@
     tools:context="com.view.kevin.myview.activity.view.activity.CommonActivity">
     <!-- gallery 画廊效果 -->
     <com.view.kevin.myview.activity.view.GalleryCoverFlow
-        android:id="@+id/gallery_flow"
+        android:id="@+id/diyview_gallery_flow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:gravity="center"/>
+        android:gravity="center" />
     <!-- 加载 json 动画效果 -->
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animation_view"
+        android:id="@+id/diyview_lottieanimation_view"
         android:layout_width="200dip"
         android:layout_height="200dip"
         app:lottie_autoPlay="true"

@@ -10,6 +10,9 @@ import com.view.kevin.myview.R;
 import com.view.kevin.myview.activity.adapter.GalleryItemAdapter;
 import com.view.kevin.myview.activity.view.GalleryCoverFlow;
 
+/**
+ * 这个activity包含了多个view
+ */
 public class CommonActivity extends AppCompatActivity {
 
     @Override
@@ -19,10 +22,18 @@ public class CommonActivity extends AppCompatActivity {
     }
 
     /**
+     * 1.一个github开源框架，地址：https://github.com/airbnb/lottie-android
+     * 2.复杂动画通过json加载
+     */
+    private void lottieAnimationView() {
+        findViewById(R.id.diyview_lottieanimation_view);
+    }
+
+    /**
      * 走廊动画
      */
     private void grlleryView() {
-        GalleryCoverFlow mGallery = (GalleryCoverFlow) findViewById(R.id.gallery_flow);
+        GalleryCoverFlow mGallery = (GalleryCoverFlow) findViewById(R.id.diyview_gallery_flow);
         mGallery.setUnselectedScale(0.75f);
         mGallery.setUnselectedAlpha(0.75f);
         mGallery.setSpacing(20);
