@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.view.activity.BlinkActivity"></activity>
+        <activity android:name=".activity.view.activity.BlinkActivity" />
+        <activity android:name=".activity.view.activity.CommonActivity"></activity>
     </application>
 
 </manifest>

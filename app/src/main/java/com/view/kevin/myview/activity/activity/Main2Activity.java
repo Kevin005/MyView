@@ -1,7 +1,10 @@
 package com.view.kevin.myview.activity.activity;
 
 import android.os.Bundle;
+import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.view.kevin.myview.R;
