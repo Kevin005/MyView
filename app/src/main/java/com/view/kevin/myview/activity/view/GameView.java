@@ -59,7 +59,7 @@ public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Cal
         //保持屏幕常亮
         setKeepScreenOn(true);
 
-        bmp_enemy = BitmapFactory.decodeResource(getResources(), R.drawable.eye);
+        bmp_enemy = BitmapFactory.decodeResource(getResources(), R.drawable.enemy);
         W = bmp_enemy.getWidth() / 13;
         H = bmp_enemy.getHeight();
         //这里我以单帧图片的中心点为控制点。具体控制点的位置，主要看你的图片了
@@ -71,7 +71,7 @@ public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Cal
 
 		/*  第一种绘制方法                  */
         /*
-		canvas.drawColor(Color.GRAY);
+        canvas.drawColor(Color.GRAY);
 		//屏幕显示区域
 		Rect rect_dst=new Rect(X-W/2, Y-H/2, X+W/2, Y+H/2);
 		//图片截取区域
