@@ -8,10 +8,11 @@
     android:orientation="vertical">
 
     <com.view.kevin.myview.activity.view.StrokeTextView
+        android:id="@+id/tex_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="爸爸"
-        android:textSize="40sp"
+        android:textSize="20sp"
         app:innnerColor="@color/white"
         app:outerColor="@color/black" />
 </LinearLayout>
