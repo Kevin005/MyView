@@ -14,7 +14,15 @@ import com.view.kevin.myview.R;
 import java.lang.reflect.Field;
 
 /**
- * Created by Kevin on 2017/2/13.
+ * 自定义字体并且外黑内白
+ *<com.view.kevin.myview.activity.view.GameView
+ android:id="@+id/tex_name"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="爸爸"
+ android:textSize="20sp"
+ app:innnerColor="@color/white"
+ app:outerColor="@color/black" />
  */
 
 public class StrokeTextView extends TextView {
