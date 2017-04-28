@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/black"
-    android:orientation="vertical">
-
-    <Button
-        android:id="@+id/btn_action"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    android:background="@color/white">
 
     <com.view.kevin.myview.activity.view.LottieAnimView
         android:id="@+id/lottie_all"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_action1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="洗澡" />
+
+            <Button
+                android:id="@+id/btn_action2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="玩球" />
+
+            <Button
+                android:id="@+id/btn_action3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="笑" />
+
+            <Button
+                android:id="@+id/btn_action4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="吃饭" />
+
+            <Button
+                android:id="@+id/btn_action5"
+                android:layout_width="wrap_content"
+                android:text="叫"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_action6"
+                android:layout_width="wrap_content"
+                android:text="趴下"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

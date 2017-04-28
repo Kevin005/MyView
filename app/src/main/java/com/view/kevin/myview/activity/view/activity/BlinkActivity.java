@@ -31,7 +31,6 @@ public class BlinkActivity extends AppCompatActivity {
     private LinearLayout line_line = null;
 
     @Override
-
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
