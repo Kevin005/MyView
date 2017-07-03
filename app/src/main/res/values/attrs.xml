@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义控件的名称 -->
+    <!--<declare-styleable name="StrokeFactoryTextView">-->
+        <!--&lt;!&ndash; 自定义的属性名称 和对应的单位 &ndash;&gt;-->
+        <!--<attr name="outerColor" format="color|reference" />-->
+        <!--<attr name="innnerColor" format="color|reference" />-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="StrokeTextFactoryView">
+        <attr name="outerColor" format="color|reference" />
+        <attr name="innnerColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcLayout">
+        <attr name="fromDegrees" />
+        <attr name="toDegrees" />
+        <attr name="childSize" />
+        <attr name="minRadius" />
+        <attr name="centerLayout" />
+    </declare-styleable>
+
+    <attr name="fromDegrees" format="float|reference" />
+    <attr name="toDegrees" format="float|reference" />
+    <attr name="childSize" format="dimension|reference" />
+    <attr name="minRadius" format="dimension|reference" />
+    <attr name="centerLayout" format="reference" />
+    <declare-styleable name="StrokeTextOrdinary">
+        <attr name="ordinaryOuterColor" format="color|reference" />
+        <attr name="ordinaryInnerColor" format="color|reference" />
+        <attr name="ordinaryIsDrawInner" format="boolean" />
+        <attr name="ordinaryIsDrawOuter" format="boolean" />
+        <attr name="ordinaryStrokeWidth" format="float"/>
+    </declare-styleable>
+</resources>
